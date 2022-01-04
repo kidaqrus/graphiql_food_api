@@ -1,0 +1,14 @@
+table {
+    overflow: hidden;
+    border-collapse: collapse;
+    position: relative;
+}
+table td {
+    padding: 5px;
+    border: 1px solid #000;
+    background-color: #92a89e;
+}
+.tbody::before {
+    content: "";
+    margin: 10px;
+}
